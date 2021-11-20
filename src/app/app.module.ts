@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { StudentComponent } from './student/student.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { SweetAlertComponent } from './sweet-alert/sweet-alert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StudentComponent
+    StudentComponent,
+    SweetAlertComponent
   ],
   imports: [
     BrowserModule,

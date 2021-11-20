@@ -6,17 +6,24 @@ import { AppComponent } from './app.component';
 import { StudentComponent } from './student/student.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { ToastrPageComponent } from './toastr-page/toastr-page.component';
+import { ToastrModule } from 'ngx-toastr';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StudentComponent
+    StudentComponent,
+    ToastrPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ToastrModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

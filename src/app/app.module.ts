@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { UploadImageComponent } from './upload-image/upload-image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    UploadImageComponent
   ],
   imports: [
     BrowserModule,

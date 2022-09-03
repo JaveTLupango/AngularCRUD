@@ -1,9 +1,9 @@
+import { ParentComponent } from './parent/parent.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { StudentComponent } from './student/student.component';
 
 const routes: Routes = [
-  {path: 'student', component:StudentComponent}
+  {path: 'parentchild', component:ParentComponent}
   ///
 ];
 
